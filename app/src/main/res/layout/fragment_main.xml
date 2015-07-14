@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@+id/buttonsrow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <Button
+            android:id="@+id/mebut"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Center on my position"
+            android:layout_weight="0.25" android:layout_margin="-5dp"
+            />
+        <Button
+            android:id="@+id/findbut"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Find a coordinate"
+            android:layout_weight="0.25" android:layout_margin="-5dp"
+            />
+        <Button
+            android:id="@+id/sampbut"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Toggle Samples"
+            android:layout_weight="0.25" android:layout_margin="-5dp"
+            />
+        <Button
+            android:id="@+id/backbut"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Toggle Backups"
+            android:layout_weight="0.25"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
